@@ -14,3 +14,6 @@ add .  "adciona alteração"
 commit -m  "primeria funcao tal tal "
 
 push "mandar pro online"
+
+
+primeira alter
