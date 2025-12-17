@@ -3,5 +3,8 @@
 }
 
 #btnAgendar {
-    
+    background-color:crimson;
+}
+.btnAviso {
+    background-color: blueviolet;
 }

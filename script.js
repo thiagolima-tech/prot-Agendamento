@@ -6,17 +6,12 @@ function fazerAlerta(numero){
 
 btnAlert.addEventListener('click', () => {fazerAlerta(parseInt(Math.random()*100+1))})
 
+const btnAviso = document.querySelector(".btnAviso")
 
-3
+function fazerAviso(){
+    alert("Conflito de horário!");
+    let resposta= prompt("Qual compromisso devo alterar?");
+    alert(resposta);
+}
 
-add .  "adciona alteração"
-
-commit -m  "primeria funcao tal tal "
-
-push "mandar pro online"
-
-git pull
-
-primeira alter
-
-segunda alter
+btnAviso.addEventListener('click', () => {fazerAviso()})
