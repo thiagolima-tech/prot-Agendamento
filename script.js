@@ -15,6 +15,7 @@ commit -m  "primeria funcao tal tal "
 
 push "mandar pro online"
 
+git pull
 
 primeira alter
 
