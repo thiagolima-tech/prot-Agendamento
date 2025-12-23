@@ -15,3 +15,15 @@ function fazerAviso(){
 }
 
 btnAviso.addEventListener('click', () => {fazerAviso()})
+
+
+const formAgendar= document.querySelector("#formAgendar")
+
+formAgendar.addEventListener("submit", () =>{
+    event.preventDefault() 
+    const time= document.querySelector("#time").value
+     const prioridade= document.querySelector("#prioridade").value
+     console.log(time, prioridade)
+})
+
+
